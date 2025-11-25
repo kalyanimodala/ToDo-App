@@ -3,19 +3,71 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Todo App</title>
+  <title>Todo App • Kalyani</title>
   <style>
-    body{font-family:Arial,Helvetica,sans-serif;background:#f3f4f6;margin:0;padding:20px;display:flex;justify-content:center}
-    .app{width:100%;max-width:480px;background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(2,6,23,.08)}
-    h1{margin:0 0 12px;font-size:20px}
-    form{display:flex;gap:8px;margin-bottom:12px}
-    input[type="text"]{flex:1;padding:8px;border:1px solid #e5e7eb;border-radius:6px}
-    button{padding:8px 12px;border-radius:6px;border:none;background:#2563eb;color:#fff}
-    ul{list-style:none;padding:0;margin:0}
-    li{display:flex;justify-content:space-between;align-items:center;padding:8px 6px;border-bottom:1px solid #f3f4f6}
-    .actions button{margin-left:8px;border:none;background:transparent;cursor:pointer}
-    .done{text-decoration:line-through;color:#9ca3af}
-    .empty{color:#6b7280;padding:12px;text-align:center}
+    body{
+      font-family:Arial,Helvetica,sans-serif;
+      background:#f3f4f6;
+      margin:0;
+      padding:20px;
+      display:flex;
+      justify-content:center
+    }
+    .app{
+      width:100%;
+      max-width:480px;
+      background:#fff;
+      padding:18px;
+      border-radius:10px;
+      box-shadow:0 6px 20px rgba(2,6,23,.08)
+    }
+    h1{
+      margin:0 0 12px;
+      font-size:20px
+    }
+    form{display:flex;gap:8px;
+         margin-bottom:12px
+        }
+    input[type="text"]{
+      flex:1;
+      padding:8px;
+      border:1px solid #e5e7eb;
+      border-radius:6px
+    }
+    button{
+      padding:8px 12px;
+      border-radius:6px;
+      border:none;
+      background:#2563eb;
+      color:#fff
+    }
+    ul{
+      list-style:none;
+      padding:0;
+      margin:0
+    }
+    li{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:8px 6px;
+      border-bottom:1px solid #f3f4f6
+    }
+    .actions button{
+      margin-left:8px;
+      border:none;
+      background:transparent;
+      cursor:pointer
+    }
+    .done{
+      text-decoration:line-through;
+      color:#9ca3af
+    }
+    .empty{
+      color:#6b7280;
+           padding:12px;t
+             ext-align:center
+    }
   </style>
 </head>
 <body>
@@ -31,7 +83,6 @@
   </div>
 
   <script>
-    // Simple todo with localStorage
     const form = document.getElementById('todoForm');
     const input = document.getElementById('taskInput');
     const list = document.getElementById('todoList');
@@ -94,3 +145,4 @@
   </script>
 </body>
 </html>
+
